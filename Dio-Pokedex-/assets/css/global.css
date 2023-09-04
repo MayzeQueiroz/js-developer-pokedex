@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f6f8fc; */
+    background-image: url("https://img.freepik.com/fotos-gratis/uma-ilustracao-de-corte-de-papel-de-um-ceu-com-nuvens-e-um-passaro-voando-no-ceu_1340-35230.jpg?w=740&t=st=1693509681~exp=1693510281~hmac=67416e0f5c7abb77663e188ff718c92a543ffcd9467151321b36b7858135345a");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+     
+ }
+ 
+ /*.content {
+     width: 100vw;
+     height: 100vh;
+     padding: 1rem;
+     background-color: #fff;
+ }
+ */
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
